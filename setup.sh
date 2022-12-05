@@ -11,7 +11,7 @@ done
 
 sudo wget https://raw.githubusercontent.com/nacoraco/Naloga_6/main/user.txt
 
-filename="$HOME/user.txt"
+filename="$PWD/user.txt"
 while read line; do
   sudo useradd -m $line
   sudo usermod -aG sudo $line
