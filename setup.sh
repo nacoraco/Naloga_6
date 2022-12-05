@@ -11,4 +11,4 @@ done
 
 while read p do 
 echo $p
-done <  user.txt
+done < user.txt
