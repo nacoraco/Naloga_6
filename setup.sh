@@ -9,7 +9,7 @@ do
   mkdir mapa$i
 done
 
-wget https://raw.githubusercontent.com/nacoraco/Naloga_6/main/user.txt
+sudo wget https://raw.githubusercontent.com/nacoraco/Naloga_6/main/user.txt
 
 filename="$HOME/user.txt"
 while read line; do
