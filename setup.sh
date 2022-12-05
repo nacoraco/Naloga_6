@@ -9,9 +9,6 @@ do
   mkdir mapa$i
 done
 
-services_file="user.txt"
-services=$(<"$services_file")
-
-for service in $services; do
-  echo "found service: $service"
-done
+while read p do 
+echo $p
+done <  user.txt
