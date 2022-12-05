@@ -1,5 +1,7 @@
 #!/bin/bash
 
+wget https://raw.githubusercontent.com/nacoraco/Naloga_6/main/user.txt
+
 mkdir Windows
 cd Windows
 mkdir Desktop Documents Downloads Pictures Videos Music
