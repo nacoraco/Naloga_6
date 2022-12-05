@@ -9,6 +9,8 @@ do
   mkdir mapa$i
 done
 
+cd ..
+
 sudo wget https://raw.githubusercontent.com/nacoraco/Naloga_6/main/user.txt
 
 filename="$PWD/user.txt"
