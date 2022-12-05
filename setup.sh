@@ -9,9 +9,6 @@ do
   mkdir mapa$i
 done
 
-echo -n "Enter name of text file: "; read FILENAME
-while read USER; do
-   echo "$USER"
-  sudo  useradd -m "${USER}" -d /users/"${USER}"
-   sudo  usermod -aG sudo -m "${USER}"
-done < "${FILENAME}"
+while read line; do    
+    echo $line    
+done < file.txt
